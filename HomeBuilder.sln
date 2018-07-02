@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeBuilder", "HomeBuilder\HomeBuilder.csproj", "{0C737362-D172-4A35-A64A-325627207C11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeBuilder.Domain", "HomeBuilder.Domain\HomeBuilder.Domain.csproj", "{F7773B93-CE9B-4A1B-9A18-D0EAF053D644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeBuilder.API", "HomeBuilder.API\HomeBuilder.API.csproj", "{18FC0CA3-2667-42E8-860E-BBADDFA98AEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0C737362-D172-4A35-A64A-325627207C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C737362-D172-4A35-A64A-325627207C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C737362-D172-4A35-A64A-325627207C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C737362-D172-4A35-A64A-325627207C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7773B93-CE9B-4A1B-9A18-D0EAF053D644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7773B93-CE9B-4A1B-9A18-D0EAF053D644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7773B93-CE9B-4A1B-9A18-D0EAF053D644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7773B93-CE9B-4A1B-9A18-D0EAF053D644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FC0CA3-2667-42E8-860E-BBADDFA98AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FC0CA3-2667-42E8-860E-BBADDFA98AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FC0CA3-2667-42E8-860E-BBADDFA98AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FC0CA3-2667-42E8-860E-BBADDFA98AEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
